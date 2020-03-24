@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB4F8436242A033A00F06270 /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4F8435242A033900F06270 /* SnapshotHelper.swift */; };
 		FBD80DC12429F5D800EAED1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD80DC02429F5D800EAED1B /* AppDelegate.swift */; };
-		FBD80DC32429F5D800EAED1B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD80DC22429F5D800EAED1B /* SceneDelegate.swift */; };
 		FBD80DC52429F5D800EAED1B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD80DC42429F5D800EAED1B /* ViewController.swift */; };
 		FBD80DC82429F5D800EAED1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBD80DC62429F5D800EAED1B /* Main.storyboard */; };
 		FBD80DCA2429F5DE00EAED1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBD80DC92429F5DE00EAED1B /* Assets.xcassets */; };
@@ -27,9 +27,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FB4F8435242A033900F06270 /* SnapshotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapshotHelper.swift; sourceTree = "<group>"; };
 		FBD80DBD2429F5D800EAED1B /* ScreenshotAutomation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScreenshotAutomation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBD80DC02429F5D800EAED1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FBD80DC22429F5D800EAED1B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		FBD80DC42429F5D800EAED1B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FBD80DC72429F5D800EAED1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FBD80DC92429F5DE00EAED1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -80,7 +80,6 @@
 			isa = PBXGroup;
 			children = (
 				FBD80DC02429F5D800EAED1B /* AppDelegate.swift */,
-				FBD80DC22429F5D800EAED1B /* SceneDelegate.swift */,
 				FBD80DC42429F5D800EAED1B /* ViewController.swift */,
 				FBD80DC62429F5D800EAED1B /* Main.storyboard */,
 				FBD80DC92429F5DE00EAED1B /* Assets.xcassets */,
@@ -93,6 +92,7 @@
 		FBD80DD62429F5DE00EAED1B /* ScreenshotAutomationUITests */ = {
 			isa = PBXGroup;
 			children = (
+				FB4F8435242A033900F06270 /* SnapshotHelper.swift */,
 				FBD80DD72429F5DE00EAED1B /* ScreenshotAutomationUITests.swift */,
 				FBD80DD92429F5DE00EAED1B /* Info.plist */,
 			);
@@ -202,7 +202,6 @@
 			files = (
 				FBD80DC52429F5D800EAED1B /* ViewController.swift in Sources */,
 				FBD80DC12429F5D800EAED1B /* AppDelegate.swift in Sources */,
-				FBD80DC32429F5D800EAED1B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,6 +210,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FBD80DD82429F5DE00EAED1B /* ScreenshotAutomationUITests.swift in Sources */,
+				FB4F8436242A033A00F06270 /* SnapshotHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,6 +365,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q2P9VVU3YH;
 				INFOPLIST_FILE = ScreenshotAutomation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -383,6 +384,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q2P9VVU3YH;
 				INFOPLIST_FILE = ScreenshotAutomation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -401,6 +403,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q2P9VVU3YH;
 				INFOPLIST_FILE = ScreenshotAutomationUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -421,6 +424,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q2P9VVU3YH;
 				INFOPLIST_FILE = ScreenshotAutomationUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

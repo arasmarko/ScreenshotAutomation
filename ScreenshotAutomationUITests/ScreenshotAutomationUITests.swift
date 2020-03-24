@@ -9,16 +9,20 @@
 import XCTest
 
 class ScreenshotAutomationUITests: XCTestCase {
-
+    var app: XCUIApplication!
+    
     override func setUp() {
-
+        let app = XCUIApplication()
+        setupSnapshot(app)
+        app.launch()
     }
 
     override func tearDown() {
    
     }
 
-    func testHome() {
+    func test_dummy() {
+        snapshot("Dummy Snapshot")
         XCTAssertTrue(true)
     }
 }

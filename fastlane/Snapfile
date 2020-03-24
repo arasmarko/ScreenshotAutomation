@@ -1,0 +1,14 @@
+ devices([
+   "iPhone 8",
+   "iPhone 8 Plus",
+   "iPhone SE",
+   "iPhone Xs"
+ ])
+
+ languages([
+   "en-US"
+ ])
+
+output_directory("./screenshots")
+
+clear_previous_screenshots(true)
